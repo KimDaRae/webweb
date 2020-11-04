@@ -1,0 +1,107 @@
+body{
+    font-family: "맑은 고딕","고딕","굴림";
+}
+
+header{
+    width: 80;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2c7cea; 
+    padding: 10px;
+    overflow: hidden;
+}
+
+header h1{
+    width: 40%;
+    float: left;
+    color: #fff;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+footer{
+    width: 80;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: #2c7cea;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+
+@font-face{
+    font-family:cour;
+    src:url('cour.ttf');
+    font-weight:bold;
+}
+
+header{
+    font-family:TmonMonsori;
+}
+
+body{
+    font-family: cour;
+}
+
+
+.large{
+    font-family: Blueberry Regular;
+    font-size: large;
+    text-align: center;
+    text-decoration:line-through;
+    letter-spacing: 0.3em;
+        
+}
+
+.xx-large{
+     font-family:courbd;
+     font-size: xx-large;
+    
+    
+    line-height: 170%
+}
+
+h1{
+     font-family:couri;
+    font-variant: comicbd;
+}
+
+.shadow1{
+    text-shadow: 1px 1px 5px #000;
+}
+
+.shadow2{
+    text-shadow: 5px 5px 2px #222,10px -10px 10px #999;
+}
+
+#content{
+    border:5px solid #3174f2;
+    width: 400px;
+    height:400px;
+    text-align:center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 2em;
+   
+}
+
+
+
+
+
+
+
+
+
+
